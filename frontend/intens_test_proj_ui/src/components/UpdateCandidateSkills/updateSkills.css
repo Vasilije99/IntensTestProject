@@ -1,0 +1,67 @@
+.candidateSkills {
+    margin: 30px;
+}
+
+.candidateSkills ul li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: khaki;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.candidateSkills ul li span {
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.candidateSkills ul li span:hover {
+    background-color: darkkhaki;
+}
+
+.addNewSkill {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.addNewSkill form {
+    background-color: khaki;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.addNewSkill form select{
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 60%;
+}
+
+.addNewSkill form button{
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.addNewSkill form button:hover {
+    background-color: darkkhaki;
+}
+
+@media screen and (max-width: 768px) {
+
+}

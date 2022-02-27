@@ -1,0 +1,51 @@
+.formTemplate {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    background-color: khaki;
+    border-radius: 10px;
+    outline: none;
+    -webkit-box-shadow: 5px 5px 15px 5px #D2D755; 
+    box-shadow: 5px 5px 15px 5px #D2D755;
+    padding: 20px;
+}
+
+.formTemplate label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.formTemplate label input {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.formTemplate button {
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formTemplate button:hover {
+    background-color: darkkhaki;
+}
+
+@media screen and (max-width: 768px) {
+    .formTemplate label{
+        flex-direction: column;
+    }
+
+    .formTemplate label input {
+        margin-top: 5px;
+    }
+}

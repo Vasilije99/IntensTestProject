@@ -1,0 +1,78 @@
+.candidates {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.candidates h3 {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.candidatesTable {
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    width: inherit;
+}
+
+.candidatesTable thead {
+    background-color: khaki;
+    color: black;
+}
+
+.candidatesTable thead th{
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.candidatesTable td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.candidatesTable .fullname{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.options {
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+}
+
+.candidatesTable td:nth-child(3):hover{
+    background-color:darkkhaki;
+}
+
+.candidatesTable td:nth-child(5):hover{
+    background-color:darkkhaki;
+}
+
+.candidatesTable td:nth-child(4):hover{
+    background-color:darkkhaki;
+}
+
+@media screen and (max-width: 768px) {
+    .candidatesTable thead th {
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+
+    .candidatesTable td {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .candidates {
+        width: fit-content;
+        margin: 10px;
+    }
+}

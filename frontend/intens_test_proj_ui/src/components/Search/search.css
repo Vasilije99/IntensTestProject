@@ -1,0 +1,39 @@
+.search {
+    width: inherit;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.search button {
+    border: none;
+    border-radius: 10px;
+    background-color: khaki;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: darkkhaki;
+}
+
+@media screen and (max-width: 768px) {
+    .search {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search button {
+        width: fit-content;
+        margin-top: 10px;
+    }
+}

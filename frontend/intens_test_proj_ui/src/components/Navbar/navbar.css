@@ -1,0 +1,72 @@
+.navbar {
+    margin-bottom: 30px;
+    background-color: khaki;
+    padding: 20px;
+}
+
+.navbar .link {
+    margin-right: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+    cursor: pointer;
+    border: 1px solid darkkhaki;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.navbar .link:hover {
+    background-color:darkkhaki;
+}
+
+.hamburgerMenu {
+    display: none;
+    border: none;
+}
+
+.hamburgerMenu a{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.hamburgerMenu a i{
+    font-size: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar .link {
+        margin-right: 10px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .hamburgerMenu {
+        display: block;
+        background-color: transparent;
+        margin: 15px 0px;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .sideNavbar {
+        display: flex;
+        flex-direction: column;     
+    }
+
+    .sideNavbar .link {
+        margin-bottom: 10px;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: darkkhaki;
+        font-weight: bold;
+        letter-spacing: 3px;
+        text-decoration: none;
+        margin-left: 40px;
+    }
+}
